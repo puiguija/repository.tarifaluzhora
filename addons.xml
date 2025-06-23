@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.tarifaluzhora"
+       version="1.0.0"
+       name="Tarifa Luz Hora"
+       provider-name="puiguija">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.plugin" library="default.py">
+    <description><![CDATA[
+      Precios por hora de la electricidad (PVPC).]]></description>
+  </extension>
+</addon>
+
+</addons>
